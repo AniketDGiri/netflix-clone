@@ -1,0 +1,29 @@
+.movie-image {
+  object-fit: contain;
+  transition: transform 450ms;
+  width: 100%;
+  max-height: 224px;
+  margin-right: 10px;
+}
+
+.movie-image:hover {
+  transform: scale(1.08);
+}
+
+.movie-trending-image {
+  max-height: 300px;
+}
+
+.movie-trending-image:hover {
+  transform: scale(1.09);
+}
+
+.div-movie-list {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+.div-movie-list::-webkit-scrollbar {
+  display: none;
+}

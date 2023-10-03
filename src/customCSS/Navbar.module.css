@@ -1,0 +1,41 @@
+.nav {
+  display: flex;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  height: 70px;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav_black {
+  background-color: black;
+}
+
+.nav_buttons_div {
+  margin-right: 20px;
+  position: fixed;
+  right: 0;
+}
+
+.nav_buttons {
+  cursor: pointer;
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: 700;
+  border-radius: 0.2vw;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-right: 1rem;
+  padding-top: 0.5rem;
+  background-color: rgba(214, 6, 6, 0.5);
+  padding-bottom: 0.5rem;
+}
+
+.nav_buttons:hover {
+  color: rgba(231, 7, 7, 0.5);
+  background-color: #e6e6e6;
+  transition: all 0.2s;
+}
